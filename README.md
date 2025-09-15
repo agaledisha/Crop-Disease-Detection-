@@ -1,4 +1,4 @@
-🌱 Smart Crop Doctor
+🌱 Crop Disease Detection
 
 An AI-Powered Web App for Crop Disease Detection with:
 - Living vs Non-Living Leaf Classifier
