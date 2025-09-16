@@ -1,7 +1,6 @@
 🌱 Crop Disease Detection
 
 An AI-Powered Web App for Crop Disease Detection with:
-- Living vs Non-Living Leaf Classifier
 - AI-Powered Disease Detection
 - Multilingual & Voice Support
 - Geo-Disease Alerts
