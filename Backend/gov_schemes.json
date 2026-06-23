@@ -1,0 +1,70 @@
+{
+  "en": [
+    {
+      "title": "PM Kisan Samman Nidhi",
+      "description": "Farmers receive ₹6000 per year directly into their bank accounts.",
+      "link": "https://pmkisan.gov.in"
+    },
+    {
+      "title": "PM Fasal Bima Yojana",
+      "description": "Crop insurance scheme protecting farmers from crop loss due to natural disasters.",
+      "link": "https://pmfby.gov.in"
+    },
+    {
+      "title": "Soil Health Card Scheme",
+      "description": "Provides soil health report and fertilizer recommendations to farmers.",
+      "link": "https://soilhealth.dac.gov.in"
+    },
+    {
+      "title": "Kisan Credit Card",
+      "description": "Provides farmers with affordable credit for agricultural expenses.",
+      "link": "https://www.nabard.org"
+    },
+    {
+      "title": "Pradhan Mantri Krishi Sinchai Yojana",
+      "description": "Improves irrigation facilities to increase farm productivity.",
+      "link": "https://pmksy.gov.in"
+    },
+    {
+      "title": "National Agriculture Market (eNAM)",
+      "description": "Online trading platform for agricultural commodities.",
+      "link": "https://enam.gov.in"
+    }
+  ],
+
+  "mr": [
+    {
+      "title": "पीएम किसान सन्मान निधी",
+      "description": "शेतकऱ्यांना दरवर्षी ₹6000 थेट बँक खात्यात दिले जातात.",
+      "link": "https://pmkisan.gov.in"
+    },
+    {
+      "title": "पीक विमा योजना",
+      "description": "नैसर्गिक आपत्तीमुळे झालेल्या पीक नुकसानीसाठी विमा संरक्षण.",
+      "link": "https://pmfby.gov.in"
+    },
+    {
+      "title": "माती आरोग्य कार्ड योजना",
+      "description": "मातीचे परीक्षण करून खतांची योग्य माहिती दिली जाते.",
+      "link": "https://soilhealth.dac.gov.in"
+    }
+  ],
+
+  "hi": [
+    {
+      "title": "पीएम किसान सम्मान निधि",
+      "description": "किसानों को हर साल ₹6000 की आर्थिक सहायता दी जाती है।",
+      "link": "https://pmkisan.gov.in"
+    },
+    {
+      "title": "प्रधानमंत्री फसल बीमा योजना",
+      "description": "फसल नुकसान होने पर किसानों को बीमा सुरक्षा।",
+      "link": "https://pmfby.gov.in"
+    },
+    {
+      "title": "मृदा स्वास्थ्य कार्ड योजना",
+      "description": "मिट्टी की जांच कर उर्वरक की जानकारी दी जाती है।",
+      "link": "https://soilhealth.dac.gov.in"
+    }
+  ]
+}
