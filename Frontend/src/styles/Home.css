@@ -1,0 +1,95 @@
+/* frontend/smart-crop-doctor-frontend/src/styles/Home.css */
+
+/* Hero Section Styling - तुमच्या Reference Image प्रमाणे */
+.hero-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* मजकूर पांढरा करा */
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+/* बॅकग्राऊंड डार्क करण्यासाठी (Overlay) */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    z-index: 1;
+}
+
+.hero-content {
+    z-index: 2; /* मजकूर Overlay च्या वर दिसावा */
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.try-now-button {
+    background-color: #FFC300; /* पिवळा रंग */
+    color: #333;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.try-now-button:hover {
+    background-color: #ffda6a;
+}
+
+/* How It Works Section Styling */
+.how-it-works-section {
+    background-color: #38761d; /* हिरवा बॅकग्राऊंड */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.how-it-works-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* responsive साठी */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.step-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+}
+
+.step-card i {
+    font-size: 3em;
+    color: #FFC300; /* पिवळे Icon */
+    margin-bottom: 15px;
+}
+
+.step-card h3 {
+    margin-bottom: 10px;
+}

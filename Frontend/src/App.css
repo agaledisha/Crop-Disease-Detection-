@@ -1,0 +1,76 @@
+/*
+ * Global CSS for Krishi Sahayak App
+ * Includes basic reset, font definition, and custom utility classes not easily done in Tailwind.
+ */
+
+/* 1. Base Reset and Font Configuration (Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Apply font and remove default margins/paddings */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f9fb; /* Light background for the whole app */
+    color: #1f2937; /* Dark gray text */
+    min-height: 100vh;
+}
+
+/* Ensure all elements inherit box-sizing for predictable layout */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 2. Custom Scrollbar Styling (Optional, for aesthetics) */
+/* Works primarily on WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e7eb; /* Light gray track */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a1a1aa; /* Darker thumb */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #71717a; /* Even darker on hover */
+}
+
+/* 3. Global Focus State Improvement (Accessibility) */
+/* Use Tailwind classes for most focus states, but this is a good fallback */
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* 4. Utility Classes (Used in forum/card components for consistent shadows) */
+/* A subtle, rounded shadow effect for cards and containers */
+.card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 0.75rem; /* Equivalent to rounded-xl in Tailwind */
+}
+
+/* 5. Animation for Loading/Processing */
+/* Custom spinner color if you don't use Tailwind colors */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+    /* You should generally use Tailwind classes like 'animate-spin' for this */
+}
+
+/* 6. Mobile Optimization (Ensures full viewport height) */
+/* On mobile browsers, 100vh can be unreliable due to address bars. */
+@supports (height: 100dvh) {
+    body {
+        min-height: 100dvh;
+    }
+}
